@@ -32,12 +32,27 @@ nav ul li{
 main{
     padding-top: 69px;
     width: 100%;
+    text-align: center;
+    position: relative;
     
 }
 main img{
     height: 700px;
    width: 1200px;
-   margin: 0 auto;
+}
+
+.showcase{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 1208px;
+    height: 90px;
+    background-color: black;
+    text-align: center;
+}
+
+.showcase h2{
+    margin: 10px;
 }
 
 .img-group img{
